@@ -21,7 +21,7 @@ enum ExecType {
 	TypeTopN = 4;
 	TypeLimit = 5;
 	TypeStreamAgg = 6;
-	TypeJoin = 7;
+	// TypeJoin = 7; //TODO unsuport join
 }
 
 // It represents a Executor.
