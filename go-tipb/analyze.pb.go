@@ -8,6 +8,7 @@
 		analyze.proto
 		checksum.proto
 		executor.proto
+		explain.proto
 		expression.proto
 		metadata.proto
 		resourcetag.proto
@@ -38,9 +39,12 @@
 		ChecksumResponse
 		Executor
 		ExchangeSender
+		EncodedBytesSlice
 		ExchangeReceiver
 		TableScan
+		PartitionTableScan
 		Join
+		RuntimeFilter
 		IndexScan
 		Selection
 		Projection
@@ -49,12 +53,32 @@
 		Limit
 		Kill
 		ExecutorExecutionSummary
+		TiFlashExecutionInfo
+		TiFlashScanContext
+		Sort
+		WindowFrameBound
+		WindowFrame
+		Window
+		GroupingExpr
+		GroupingSet
+		Expand
+		ExprSlice
+		Expand2
+		ExplainData
+		ExplainOperator
+		AccessObject
+		DynamicPartitionAccessObjects
+		DynamicPartitionAccessObject
+		ScanAccessObject
+		IndexAccess
 		FieldType
 		Expr
 		RpnExpr
 		ByItem
 		InUnionMetadata
 		CompareInMetadata
+		GroupingMark
+		GroupingFunctionMetadata
 		ResourceGroupTag
 		TableInfo
 		ColumnInfo
